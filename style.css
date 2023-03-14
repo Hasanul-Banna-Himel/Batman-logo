@@ -1,0 +1,86 @@
+body{
+       background: #191919;
+       height: 100%;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       
+}
+div, :before, :after {
+    position: absolute;
+} 
+.square{
+    width: 250px;
+    height: 84px;
+    top: 480px;
+    left: 480px;
+    background: #F2AD43;  
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    
+        
+}
+.round-left{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #191919;
+    left: 254px;
+    top: 418px;
+}
+.round-left-bottom{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #191919;
+    left: 345px;
+    top: 487px;
+}
+.round-right{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #191919;
+    left: 560px;
+    top: 418px;
+}
+.round-right-bottom{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #191919;
+    left: 450px;
+    top: 487px;
+}
+.box{
+    background-color: #191919;
+    height: 50px;
+    width: 70px;
+    border-radius: 15px;
+    left: 430px;
+    top: 400px;
+}
+.box-head{
+    background-color: #F2AD43;
+    height: 30px;
+    width: 20px;
+    border-radius: 0px;
+    left: 454px;
+    top: 435px;
+}
+.box-head-round-left{
+    height: 10px;
+    width: 10px;
+    background-color: #F2AD43;
+    border-radius: 50%;
+    top: 430px;
+    left: 450px;
+}
+.box-head-round-right{
+    height: 10px;
+    width: 10px;
+    background-color: #F2AD43;
+    border-radius: 50%;
+    top: 430px;
+    left: 468px;
+}
